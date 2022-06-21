@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>沒有病毒的網頁</title>
+<script>
+//出現題目
+function app(){
+	document.querySelector("#start").style.display="block";
+}
+function ans(){
+	if(document.querySelector("#cin").value=="4674893125"){
+		alert("恭喜你達成任務，我相信你真的不是病毒了:)");
+		alert("......恩...不過...");
+		x=prompt("你有VIP密碼嗎?(詳情請見 介紹.txt)")
+		if(x=="PanPanPan"){
+		alert("哎呀原來是老師大人(阿諛奉承樣)");
+		alert("是我有眼不識泰山(諂媚笑搓手)");
+		alert("真的很抱歉懷疑您是病毒(下跪)");
+		alert("以下有人留言給您(再次搓手)");
+		document.querySelector("#bt2").style.display="none";
+		document.querySelector("#start").style.display="none";
+		document.querySelector("#th").style.display="block";
+		}else{
+		alert("好吧看來你不是");
+		alert("但還是感謝你!");
+		document.querySelector("#bt2").style.display="none";
+		document.querySelector("#start").style.display="none";
+		document.querySelector("#fi").style.display="block";
+		}
+	}
+	else{
+		alert("答錯了，快努力證明你的清白");
+	}
+}
+function over(word){
+    word.style.color = "red";
+}
+function unover(word){
+    word.style.color = "blue";
+}
+function teacher(){
+	alert("......");
+	alert("......");
+	alert("哎呀!原來你是老師大人!");
+	alert("失禮失禮");
+}
+//開頭==================================
+flag=confirm("歡迎來到沒有病毒的遊戲網頁");
+flag=confirm("為了證明你不是病毒");
+flag=confirm("你需要輸入終極密碼");
+a=23;
+x=prompt("請猜1~100");
+while(a!=x){
+	if(x>a){
+		alert("太大了");
+		x=prompt("請猜1~100");
+	}
+	else{
+		alert("太小了");
+		x=prompt("請猜1~100");
+	}
+}
+alert("答對了耶");
+//========================================
+flag=confirm("恭喜你");
+flag=confirm("但你以為這樣就結束了嗎?");
+flag=confirm("誰知道你是不是偷看了程式碼?");
+a=Math.floor(Math.random()*100+1);
+x=prompt("請忍住你的怒火再猜1~100");
+while(a!=x){
+	if(x>a){
+		alert("太大了");
+		x=prompt("請猜1~100");
+	}
+	else{
+		alert("太小了");
+		x=prompt("請猜1~100");
+	}
+}
+alert("答對了!看來你不是病毒");
+alert("歡迎");
+flag=confirm("......");
+flag=confirm("......");
+flag=confirm("警告!警告!");
+flag=confirm("警告!此網站已被病毒入侵!");
+flag=confirm("...大事不好了");
+flag=confirm("跟你講話的過程中有病毒入侵了!");
+flag=confirm("為了證明你不是病毒派來的間諜");
+flag=confirm("請你幫忙消滅病毒大軍吧!");
+</script>
+</head>
+<body>
+	<button onclick="app()" id="bt2">快點我</button>
+	<p id="start" style="display:none;text-align:center">
+	登拎拎!我在你的滑鼠上裝了掃描器，只要找到病毒他就會變色喔!<br>
+	<br>
+	472897857<span id="a1" onmouseover="over(this)" onmouseout="unover(this)">4</span>3895784397603<br>
+	25907740694085938<span id="a2" onmouseover="over(this)" onmouseout="unover(this)">6</span>90389<br>
+	5480<span id="a3" onmouseover="over(this)" onmouseout="unover(this)">7</span>594306940395048930<br>
+	2757250357903<span id="a4" onmouseover="over(this)" onmouseout="unover(this)">4</span>630859305<br>
+	27502859085038908905<span id="a5" onmouseover="over(this)" onmouseout="unover(this)">8</span>93<br>
+	2850928508<span id="a6" onmouseover="over(this)" onmouseout="unover(this)">9</span>085363505659<br>
+	42867048679038037<span id="a7" onmouseover="over(this)" onmouseout="unover(this)">3</span>47928<br>
+	5<span id="a8" onmouseover="over(this)" onmouseout="unover(this)">1</span>376765657749208258479<br>
+	5436474676576548764657<span id="a9" onmouseover="over(this)" onmouseout="unover(this)">2</span><br>
+	375894730<span id="a10" onmouseover="over(this)" onmouseout="unover(this)">5</span>8932085902854<br>
+	<br>
+	網站:請在數字中找出會變色的病毒，並照順序告訴我，<br>
+	<input id="cin"></input>
+	<button onclick="ans()" id="bt3">小聲地說喔</button>
+	</p>
+	<p id="fi" style="display:none;text-align:center" >
+	為了表達我的感謝，我準備了禮物要送你<br>
+	<table border="3">
+	<tr>
+	<th>耶</th>
+	<th rowspan="5"> </th>
+	<th>謝</th>
+	<th>謝</th>
+	</tr>
+	<tr>
+	<td colspan="4"> </td>
+	</tr>
+	<tr>
+	<td>這</td>
+
+	<td>是</td>
+	<td>我</td>
+	</tr>
+	<tr>
+	<th>送</th>
+	
+	<th>你</th>
+	<th>的</th>
+	</tr>
+	<tr>
+	<td>禮</td>
+	
+	<td>物</td>
+	<td>盒</td>
+	</tr></table>
+	</p>
+	<p id="th" style="display:none">
+	To:老師<br><br>
+	感謝你這一學年的教導!!其實我一年級有選程風破浪(多元選修)，<br>
+	但老師都錄影片講解APCS題目，真的有點無聊QQ，所以我就這<br>
+	樣打混到了二年級，感覺自己好像不是寫程式的料，但是被你<br>
+	教到之後我開始覺得寫程式很有趣!!原來程式很多變又好玩，沒<br>
+	有一定要怎樣寫才是對的(偷用你的話XD超喜歡這句W)，找到卡<br>
+	住的點再用自己的方式去解，讓電腦照著我想的去做真的很有<br>
+	成就感!雖然這份作業比嚕娜要我們做的制式化作業還要耗費<br>
+	腦力，但這也讓我覺得自己真的在寫程式!!這應該是我上過<br>
+	最開心的課了(其他都好累)，每個禮拜二看到課表都會小開<br>
+	心一下，雖然你要轉去其他學校了@@<br>
+	最後真的很謝謝老師帶給我對程式不一樣的看法<br>
+	祝你發大財(其實是我想要)!!!<br>
+	<br>
+	<br>
+	我把之前做的連結放在這裡的話，好像前面都像是在逢迎諂媚對吧WW<br>
+	但我真的很喜歡老師你的課啦!!真心不騙<br>
+	大愛資訊!!!!!!<br>
+	老師感謝你ㄚㄚㄚ!!!!<br>
+	<a href="https://nicole20220426.github.io/" target="_self">另一個網站</a>
+	</p>
+</body>
+</html>
